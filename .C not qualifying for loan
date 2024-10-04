@@ -1,0 +1,11 @@
+//program for loan qualification
+//preprocessor directive- scanf(), printf();
+# include <stdio.h>
+int main () {
+//To qualify for loan one must be aged 21years and above and earn atleast an annual salary of 21000
+    int age=19;
+    int salary=20900;
+    char name[]={"Laxki"}; //%s
+    printf("Unfortunately Laxki we are unable to offer you loan at this time -%d");
+    return 0;
+}
